@@ -11,3 +11,9 @@ API для управления задачами с использованием
 - docker compose up --build
 
 API будет доступно на http://localhost:3000 (упрощенно в рамках задания)
+
+## Примеры запросов
+Создать задачу
+- curl -X POST -H "Content-Type: application/json" -d '{"title":"My Task"}' http://localhost:3000/tasks
+Получить все задачи
+- curl http://localhost:3000/tasks
