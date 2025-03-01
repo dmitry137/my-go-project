@@ -1,0 +1,15 @@
+# Файлы Go
+bin/
+dist/
+*.exe
+*.test
+
+# Файлы окружения
+.env
+
+# Docker
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
