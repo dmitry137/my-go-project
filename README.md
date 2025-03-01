@@ -5,7 +5,7 @@ API для управления задачами с использованием
 ## Запуск через Docker
 
 1. Склонируйте репозиторий:
-- git clone https://github.com/ваш-логин/my-go-project.git
+- git clone https://github.com/dmitry137/my-go-project
 - cd my-go-project
 2. Запустите проект:
 - docker compose up --build
