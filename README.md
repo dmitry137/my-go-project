@@ -8,7 +8,7 @@ API для управления задачами с использованием
 - git clone https://github.com/dmitry137/my-go-project
 - cd my-go-project
 2. Запустите проект:
-- docker compose up --build
+- docker compose up -d
 
 API будет доступно на http://localhost:3000 (упрощенно в рамках задания)
 
